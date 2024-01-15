@@ -109,7 +109,7 @@ module suiproject::suidice {
         playerdom.counter = playerdom.counter + 1;
     }
 
-    public fun roll_dice(ctx: &mut TxContext, id: u64, playerdom: &mut Playerdom, pseudo_random_number: u8, leaderboard: &mut Leaderboard) {
+    public fun roll_dice(id: u64, playerdom: &mut Playerdom, pseudo_random_number: u8, leaderboard: &mut Leaderboard) {
      let roll = (pseudo_random_number % 6) + 1; // Adjust for a range of 1 to 6
  
     let player = object_table::borrow_mut(&mut playerdom.players, id);
@@ -118,7 +118,7 @@ module suiproject::suidice {
 
    let leaderboard_ref = leaderboard.player_addresses;
 
-    update_leaderboard(ctx, player, leaderboard);
+    update_leaderboard(player, leaderboard);
 
 }
 
@@ -149,7 +149,7 @@ module suiproject::suidice {
     }
 
     // Update leaderboard entries and sort by high score.
-public fun update_leaderboard(ctx: &mut TxContext, player: &Player, leaderboard: &mut Leaderboard) {
+public fun update_leaderboard(player: &Player, leaderboard: &mut Leaderboard) {
     let player_id = player.address; // Reference the player's address
     let player_score = player.score; // Get the score from the reference
     let found = false;
