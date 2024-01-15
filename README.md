@@ -1,5 +1,5 @@
 # Project Name
-##SuiDice
+## SuiDice
 ## Project Overview
 
 SuiDice is a decentralized application (dApp) built on the Move blockchain. It allows players to participate in a dice game, tracks their scores, and maintains leaderboards. The aim of the SuiDice project is to demonstrate the implementation of a simple dice game on the Move blockchain. It showcases concepts such as smart contracts, object storage, events, and interactions between different modules.
