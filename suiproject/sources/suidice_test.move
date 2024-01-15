@@ -73,6 +73,8 @@ module suiproject::suidice_test{
         let score: u8 = 0;
         let expected_score: u8 = score + roll_result; // Calculate the expected score.
         assert!(player_score == expected_score, NOT_PLAYER_SCORE);
+
+        suidice::update_leaderboard()
         
         test_scenario::return_to_sender(scenario, playerdom);
         test_scenario::return_to_sender(scenario, leaderboard);
