@@ -46,7 +46,7 @@ This will execute all the tests written for the contract. Make sure you have the
 
 After running tests, you should see an output in the terminal indicating whether the tests passed or failed. Below is a screenshot of the test results:
 
-![Screenshot of test results](suiproject/test_results/Screenshot 2024-01-15 194917.png)
-![Screenshot of test results](/suiproject/test_results/Screenshot 2024-01-15 195035.png)
+[Screenshot of test results]/suiproject/test_results/Screenshot 2024-01-15 194917.png
+[Screenshot of test results]/suiproject/test_results/Screenshot 2024-01-15 195035.png
 
 
