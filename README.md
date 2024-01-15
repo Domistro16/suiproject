@@ -46,8 +46,8 @@ This will execute all the tests written for the contract. Make sure you have the
 
 After running tests, you should see an output in the terminal indicating whether the tests passed or failed. Below is a screenshot of the test results:
 
-![Screenshot of test results](suiproject/test_results/test1.png)
+![Screenshot of test results](suiproject/test_results/test_1.png)
 
-![Screenshot of test results](suiproject/test_results/test2.png)
+![Screenshot of test results](suiproject/test_results/test_2.png)
 
 Thank you for your interest in suidice app!
