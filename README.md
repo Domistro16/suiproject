@@ -1,5 +1,5 @@
 # Project Name
-
+##SuiDice
 ## Project Overview
 
 SuiDice is a decentralized application (dApp) built on the Move blockchain. It allows players to participate in a dice game, tracks their scores, and maintains leaderboards. The aim of the SuiDice project is to demonstrate the implementation of a simple dice game on the Move blockchain. It showcases concepts such as smart contracts, object storage, events, and interactions between different modules.
@@ -47,11 +47,7 @@ This will execute all the tests written for the contract. Make sure you have the
 
 After running tests, you should see an output in the terminal indicating whether the tests passed or failed. Below is a screenshot of the test results:
 
-![Screenshot of test results](path/to/your/screenshot.png)
+![Screenshot of test results](suiproject/test_results/Screenshot 2024-01-15 194917.png)
+![Screenshot of test results](/suiproject/test_results/Screenshot 2024-01-15 195035.png)
 
-- Replace `path/to/your/screenshot.png` with the actual path to the screenshot of your test results. 
-- Keep in mind that you should upload the screenshot image to your repository or any image hosting service and link it here.
 
----
-
-Replace placeholders with actual content relevant to your project, and expand each section with detailed, clear instructions specific to how your project is set up, built, run, and tested. Make sure to provide any necessary context that can help users understand and interact with your project.
