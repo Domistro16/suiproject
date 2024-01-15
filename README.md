@@ -48,6 +48,6 @@ After running tests, you should see an output in the terminal indicating whether
 
 ![Screenshot of test results](suiproject/test_results/test1.png)
 
-![Screenshot of test results](suiproject/test_results/test1.png)
+![Screenshot of test results](suiproject/test_results/test2.png)
 
 Thank you for your interest in suidice app!
