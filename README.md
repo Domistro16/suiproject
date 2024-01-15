@@ -1,5 +1,4 @@
-# Project Name
-## SuiDice
+# Suidice
 ## Project Overview
 
 SuiDice is a decentralized application (dApp) built on the Move blockchain. It allows players to participate in a dice game, tracks their scores, and maintains leaderboards. The aim of the SuiDice project is to demonstrate the implementation of a simple dice game on the Move blockchain. It showcases concepts such as smart contracts, object storage, events, and interactions between different modules.
@@ -22,7 +21,7 @@ To run this project, you will need to perform the following steps:
 
 1. Clone the repository to your local machine:
      ```
-        git clone <[repository-url](https://github.com/Domistro16/MoveSui1)>
+        git clone https://github.com/Domistro16/MoveSui1
      ```
 3. Navigate to the project directory:
    ```
@@ -30,7 +29,7 @@ To run this project, you will need to perform the following steps:
    ```
 # Build the project
 ```
-sui mov build
+sui move build
 ```
 
 
